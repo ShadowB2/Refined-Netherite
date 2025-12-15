@@ -1,0 +1,607 @@
+{
+  "mod_elements": [
+    {
+      "name": "Refined_netheriteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/refinednetherite/item/Refined_netheriteIngotItem.java",
+          "src/main/resources/assets/refined_netherite/models/item/refined_netherite_ingot.json",
+          "src/main/resources/assets/refined_netherite/items/refined_netherite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Refined_netheriteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/refined_netherite/items/refined_netherite_block.json",
+          "src/main/resources/assets/refined_netherite/models/item/refined_netherite_block.json",
+          "src/main/resources/assets/refined_netherite/blockstates/refined_netherite_block.json",
+          "src/main/java/net/mcreator/refinednetherite/block/Refined_netheriteBlockBlock.java",
+          "src/main/resources/data/refined_netherite/loot_table/blocks/refined_netherite_block.json",
+          "src/main/resources/assets/refined_netherite/models/block/refined_netherite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Refined_netheriteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_netherite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Refined_netheriteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_netherite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritestep1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritestep_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/refinednetherite/item/Netheritestep1Item.java",
+          "src/main/resources/assets/refined_netherite/models/item/netheritestep_1.json",
+          "src/main/resources/assets/refined_netherite/items/netheritestep_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Step1Refined",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "step_1_refined",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/step_1_refined.json"
+        ]
+      }
+    },
+    {
+      "name": "Cooldown",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/cooldown.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodenbat",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodenbat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/refined_netherite/items/woodenbat.json",
+          "src/main/java/net/mcreator/refinednetherite/item/WoodenbatItem.java",
+          "src/main/resources/assets/refined_netherite/models/item/woodenbat.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodbat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodbat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/woodbat.json"
+        ]
+      }
+    },
+    {
+      "name": "Refined_NetheriteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/refined_netherite/models/item/refined_netherite_armor_helmet.json",
+          "src/main/resources/assets/refined_netherite/items/refined_netherite_armor_leggings.json",
+          "src/main/resources/assets/refined_netherite/items/refined_netherite_armor_helmet.json",
+          "src/main/resources/assets/refined_netherite/items/refined_netherite_armor_chestplate.json",
+          "src/main/resources/assets/refined_netherite/models/item/refined_netherite_armor_boots.json",
+          "src/main/java/net/mcreator/refinednetherite/client/renderer/item/Refined_NetheriteArmorArmor.java",
+          "src/main/resources/assets/refined_netherite/items/refined_netherite_armor_boots.json",
+          "src/main/java/net/mcreator/refinednetherite/item/Refined_NetheriteArmorItem.java",
+          "src/main/resources/assets/refined_netherite/equipment/refined_netherite_armor.json",
+          "src/main/resources/assets/refined_netherite/models/item/refined_netherite_armor_chestplate.json",
+          "src/main/resources/assets/refined_netherite/models/item/refined_netherite_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Refined_NetheriteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_netherite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Refined_NetheriteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_netherite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Refined_NetheriteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_netherite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Refined_NetheriteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_netherite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_netherite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironbat",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/refinednetherite/item/IronbatItem.java",
+          "src/main/resources/assets/refined_netherite/models/item/ironbat.json",
+          "src/main/resources/assets/refined_netherite/items/ironbat.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironbata",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbata",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/ironbata.json"
+        ]
+      }
+    },
+    {
+      "name": "Refinedbat",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinedbat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/refined_netherite/models/item/refinedbat.json",
+          "src/main/java/net/mcreator/refinednetherite/item/RefinedbatItem.java",
+          "src/main/resources/assets/refined_netherite/items/refinedbat.json"
+        ]
+      }
+    },
+    {
+      "name": "Refinedbatt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinedbatt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refinedbatt.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/refinednetherite/item/RefinedPickaxeItem.java",
+          "src/main/resources/assets/refined_netherite/models/item/refined_pickaxe.json",
+          "src/main/resources/assets/refined_netherite/items/refined_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/refinednetherite/item/RefinedAxeItem.java",
+          "src/main/resources/assets/refined_netherite/models/item/refined_axe.json",
+          "src/main/resources/assets/refined_netherite/items/refined_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/refinednetherite/item/RefinedSwordItem.java",
+          "src/main/resources/assets/refined_netherite/items/refined_sword.json",
+          "src/main/resources/assets/refined_netherite/models/item/refined_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/refined_netherite/models/item/refined_shovel.json",
+          "src/main/java/net/mcreator/refinednetherite/item/RefinedShovelItem.java",
+          "src/main/resources/assets/refined_netherite/items/refined_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/refinednetherite/item/RefinedHoeItem.java",
+          "src/main/resources/assets/refined_netherite/models/item/refined_hoe.json",
+          "src/main/resources/assets/refined_netherite/items/refined_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/recipe/refined_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IRONFORGE",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironforge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/advancement/ironforge.json"
+        ]
+      }
+    },
+    {
+      "name": "Theresbetter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theresbetter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/advancement/theresbetter.json"
+        ]
+      }
+    },
+    {
+      "name": "HotMetal",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/advancement/hot_metal.json"
+        ]
+      }
+    },
+    {
+      "name": "Bonk",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/advancement/bonk.json"
+        ]
+      }
+    },
+    {
+      "name": "METALDING",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalding",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/advancement/metalding.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedlikeATeam",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinedlike_a_team",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/refined_netherite/advancement/refinedlike_a_team.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironbatt",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbatt",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Refined_netheriteBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Refined_netheriteBlock"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:RefinedSword",
+      "~CUSTOM:Refinedbat",
+      "~CUSTOM:Ironbat",
+      "~CUSTOM:Woodenbat"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Refined_NetheriteArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Refined_NetheriteArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Refined_NetheriteArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Refined_NetheriteArmor.boots"
+    ],
+    "ITEMS:refined_netherite:refined_netherite_armor_repair_items": [
+      "~CUSTOM:Refined_netheriteIngot"
+    ],
+    "ITEMS:refined_netherite:ironraper_repair_items": [],
+    "ITEMS:refined_netherite:refinedbat_repair_items": [
+      "~CUSTOM:Refined_netheriteIngot"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:RefinedPickaxe"
+    ],
+    "ITEMS:refined_netherite:refined_pickaxe_repair_items": [
+      "~CUSTOM:Refined_netheriteIngot"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:RefinedAxe"
+    ],
+    "ITEMS:refined_netherite:refined_axe_repair_items": [
+      "~CUSTOM:Refined_netheriteIngot"
+    ],
+    "ITEMS:refined_netherite:refined_sword_repair_items": [
+      "~CUSTOM:Refined_netheriteIngot"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:RefinedShovel"
+    ],
+    "ITEMS:refined_netherite:refined_shovel_repair_items": [
+      "~CUSTOM:Refined_netheriteIngot"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:RefinedHoe"
+    ],
+    "ITEMS:refined_netherite:refined_hoe_repair_items": [
+      "~CUSTOM:Refined_netheriteIngot"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.refined_netherite.refined_netherite_armor_helmet": "Refined Netherite Helmet",
+      "advancements.metalding.title": "Metal Ding",
+      "item.refined_netherite.refined_netherite_block": "Block of Refined netherite",
+      "advancements.refinedlike_a_team.descr": "obtain a Refined Netherite bat",
+      "advancements.metalding.descr": "obtain a Iron bat",
+      "item.refined_netherite.refinedbat": "Refined Netherite bat",
+      "advancements.hot_metal.descr": "obtain Refined Netherite",
+      "item.refined_netherite.refined_netherite_armor_leggings": "Refined Netherite Leggings",
+      "advancements.hot_metal.title": "Hot Metal",
+      "advancements.refinedlike_a_team.title": "Refined like a TEAM",
+      "item.refined_netherite.refined_axe": "Refined Netherite Axe",
+      "item.refined_netherite.ironbat": "Iron bat",
+      "item.refined_netherite.refined_netherite_ingot": "Refined Netherite",
+      "item.refined_netherite.netheritestep_1": "Refined Netherite unfinshed",
+      "item.refined_netherite.refined_pickaxe": "Refined Netherite Pickaxe",
+      "advancements.bonk.descr": "obtain a bat",
+      "item.refined_netherite.woodenbat": "Wooden bat",
+      "block.refined_netherite.refined_netherite_block": "Block of Refined netherite",
+      "advancements.ironforge.descr": "obtain unfinshed refined Netherite",
+      "item.refined_netherite.refined_sword": "Refined Netherite Sword",
+      "item.refined_netherite.refined_hoe": "Refined Netherite Hoe",
+      "advancements.ironforge.title": "melt and cool",
+      "item.refined_netherite.refined_shovel": "Refined Netherite Shovel",
+      "advancements.theresbetter.descr": "something stronger than netherite does exsist",
+      "advancements.bonk.title": "Bonk",
+      "advancements.theresbetter.title": "Theres better?",
+      "item.refined_netherite.refined_netherite_armor_boots": "Refined Netherite Boots",
+      "item.refined_netherite.refined_netherite_armor_chestplate": "Refined Netherite Chestplate"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/refinednetherite/mixin/EquipmentLayerRendererMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/mixin/PiglinAiMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/init/RefinedNetheriteModArmorModels.java",
+      "src/main/java/net/mcreator/refinednetherite/init/RefinedNetheriteModTrades.java",
+      "src/main/java/net/mcreator/refinednetherite/init/RefinedNetheriteModBlocks.java",
+      "src/main/java/net/mcreator/refinednetherite/init/RefinedNetheriteModBlocksRenderers.java",
+      "src/main/java/net/mcreator/refinednetherite/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/init/RefinedNetheriteModItems.java",
+      "src/main/java/net/mcreator/refinednetherite/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/event/PlayerEvents.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/refinednetherite/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/refinednetherite/event/ItemEvents.java",
+      "src/main/java/net/mcreator/refinednetherite/event/BlockEvents.java",
+      "src/main/java/net/mcreator/refinednetherite/mixin/CommandsMixin.java",
+      "src/main/resources/META-INF/refined_netherite.accesswidener",
+      "src/main/java/net/mcreator/refinednetherite/RefinedNetheriteModClient.java",
+      "src/main/java/net/mcreator/refinednetherite/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/event/MiscEvents.java",
+      "src/main/java/net/mcreator/refinednetherite/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/refinednetherite/RefinedNetheriteMod.java",
+      "src/main/java/net/mcreator/refinednetherite/init/RefinedNetheriteModTabs.java",
+      "src/main/resources/refined_netherite.mixins.json",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/refinednetherite/mixin/LivingEntityMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "refined_netherite",
+    "modName": "Refined Netherite",
+    "version": "1.2.1",
+    "description": "Refined Netherite By ShadowB",
+    "author": "Brian, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "refined_netherite_ingot",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.refinednetherite"
+  },
+  "mcreatorVersion": 202500344519
+}
